@@ -1,0 +1,48 @@
+
+/* Revision Grid !! */
+
+
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100vh;
+  width: 100%;
+}
+.box {
+  background: red;
+  
+}
+.item-1{
+  grid-column: 1/4;
+}
+.item-2{
+    grid-row: span 3;
+} */
+
+
+/* Start New Topic Grid!! */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: minmax(200px, repeat(3, 1fr)); it's wrong!*/  
+    grid-template-columns: repeat(6, minmax(200px, 1fr)); 
+    /* Use autofit */
+    gap: 20px;
+    width: 100%;
+    place-items: center;
+    height: 100vh;
+}
+.box{
+    background: red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
