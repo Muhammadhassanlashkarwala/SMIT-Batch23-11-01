@@ -25,3 +25,7 @@ console.log("Hello External Js File");
 let nationality;
 nationality = "America"
 console.log(nationality);
+
+const hassan = "hassan";
+hassan = "bilal";   
+console.log(hassan);
